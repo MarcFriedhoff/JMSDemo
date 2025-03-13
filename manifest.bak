@@ -4,18 +4,16 @@
   <value name="enabled">yes</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
-  <record name="startup_services" javaclass="com.wm.util.Values">
-    <null name="jmsdemo.startup:startup"/>
-  </record>
+  <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <null name="requires"/>
-  <value name="listACL">Default</value>
+  <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
   <null name="build"/>
   <null name="description"/>
   <value name="created_date">12-03-2025 15:14:53 CET</value>
   <null name="extendedProperties"/>
-  <null name="target_server_version"/>
+  <value name="target_server_version">11.1.0.0</value>
 </Values>
