@@ -8,6 +8,11 @@
         <value name="value">MyVar</value>
         <value name="isSecure">false</value>
       </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">JMS_CONNECTION</value>
+        <value name="value">MyJMSConnection</value>
+        <value name="isSecure">false</value>
+      </record>
     </array>
   </record>
 </IDataXMLCoder>
