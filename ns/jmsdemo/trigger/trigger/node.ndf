@@ -36,7 +36,7 @@
     <value name="executeUser">Administrator</value>
     <value name="aliasName">SOLACE_JMS</value>
     <number name="jmsTriggerType" type="Integer">0</number>
-    <Boolean name="enabled">true</Boolean>
+    <Boolean name="enabled">false</Boolean>
     <value name="prefetchSize">10</value>
     <value name="connectionCount">1</value>
     <value name="inactiveWaitTime">1500</value>
