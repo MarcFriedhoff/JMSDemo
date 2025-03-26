@@ -3,6 +3,21 @@
 <IDataXMLCoder version="1.0">
   <record javaclass="com.wm.data.ISMemDataImpl">
     <array name="globalVariables" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">wmio.serviceurl</value>
+        <value name="value">https://psdev.int-aws-de.webmethods.io/integration/rest/external/integration/run/development/fl9c04c6e7a38cd8546d574d/jmsReceive</value>
+        <value name="isSecure">false</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">wmio.user</value>
+        <value name="value">mfri</value>
+        <value name="isSecure">false</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">wmio.password</value>
+        <value name="value">gvhandle.wmio.password</value>
+        <value name="isSecure">true</value>
+      </record>
     </array>
   </record>
 </IDataXMLCoder>

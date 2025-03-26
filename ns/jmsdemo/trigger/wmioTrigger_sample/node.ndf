@@ -3,7 +3,7 @@
 <Values version="2.0">
   <value name="node_type">webMethods/trigger</value>
   <value name="node_subtype">unknown</value>
-  <value name="node_nsName">jmsdemo.trigger:trigger</value>
+  <value name="node_nsName">jmsdemo.trigger:wmioTrigger_sample</value>
   <value name="node_pkg">JMSDemo</value>
   <value name="node_comment"></value>
   <value name="is_public">false</value>
@@ -32,11 +32,11 @@
     <value name="inDoubtDetection">false</value>
     <value name="resolveWithHistory">false</value>
     <value name="resolutionHistoryTTL">7200000</value>
-    <value name="uniqueId">Og0WaKM9OCMKkwZIH0+Rx/XlQfU=</value>
+    <value name="uniqueId">T6ypSmJK9Gs39lRftMu6EBwjI2A=</value>
     <value name="executeUser">Administrator</value>
-    <value name="aliasName">SOLACE_JMS</value>
+    <value name="aliasName">SOLACE_AMQP</value>
     <number name="jmsTriggerType" type="Integer">0</number>
-    <Boolean name="enabled">false</Boolean>
+    <Boolean name="enabled">true</Boolean>
     <value name="prefetchSize">10</value>
     <value name="connectionCount">1</value>
     <value name="inactiveWaitTime">1500</value>
@@ -49,7 +49,7 @@
     <array name="routingRules" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="ruleName">Rule1</value>
-        <value name="serviceName">jmsdemo.services:trigger</value>
+        <value name="serviceName">jmsdemo.services:triggerWMIO</value>
         <value name="filter"></value>
       </record>
     </array>
